@@ -1,0 +1,460 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1440px;
+}
+.container .logo {
+  position: absolute;
+  width: 130px;
+  height: 39px;
+  left: 165px;
+  top: 60px;
+}
+.container .h1 {
+  position: absolute;
+  width: 650px;
+  height: 190px;
+  left: 165px;
+  top: 253px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 95px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .p {
+  position: absolute;
+  width: 657px;
+  height: 66px;
+  left: 165px;
+  top: 467px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .tele1 {
+  position: absolute;
+  width: 514px;
+  height: 729px;
+  left: 822px;
+  top: 85px;
+}
+.container .logo1 {
+  position: absolute;
+  width: 148.28px;
+  height: 148.28px;
+  left: 835px;
+  top: 21.6px;
+}
+.container .logo2 {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  left: 78px;
+  top: 717px;
+}
+.container .logo3 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  left: 1241px;
+  top: 760px;
+}
+.container .vid {
+  position: absolute;
+  width: 1110px;
+  height: 500px;
+  left: 137px;
+  top: 956px;
+}
+.container .qora {
+  position: absolute;
+  width: 1110px;
+  height: 500px;
+  left: 137px;
+  top: 956px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.container .play {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 685px;
+  top: 1185px;
+}
+.container .inner2 {
+  position: absolute;
+  width: 1110px;
+  height: 480px;
+  left: 137px;
+  top: 1822px;
+  background: #0F0F54;
+  border-radius: 20px;
+}
+.container .top {
+  margin: 126px 0 0 80px;
+  color: white;
+  height: 60px;
+  width: 310px;
+  left: 217px;
+  top: 1948px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .topp {
+  color: white;
+  margin: 30px 490px 0 80px;
+  position: absolute;
+  width: 540px;
+  height: 138px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .block {
+  position: absolute;
+  width: 495px;
+  height: 773px;
+  left: 725px;
+  top: 1616px;
+}
+.container .logo4 {
+  position: absolute;
+  width: 148.28px;
+  height: 148.28px;
+  left: 494px;
+  top: 1615.6px;
+}
+.container .tele3 {
+  position: absolute;
+  width: 600px;
+  height: 571px;
+  left: 125px;
+  top: 2528px;
+}
+.container .bot {
+  position: absolute;
+  width: 576px;
+  height: 60px;
+  left: 745px;
+  top: 2698px;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .bott {
+  position: absolute;
+  width: 540px;
+  height: 171px;
+  left: 745px;
+  top: 2788px;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .logo5 {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  left: 160px;
+  top: 3067px;
+}
+.container .inner4 {
+  position: absolute;
+  width: 1110px;
+  height: 480px;
+  left: 165px;
+  top: 3460px;
+  background: #F9E0C7;
+  border-radius: 20px;
+}
+.container .tele4 {
+  position: absolute;
+  width: 412px;
+  height: 791px;
+  left: 794px;
+  top: 3230px;
+}
+.container .bot2 {
+  position: absolute;
+  width: 256px;
+  height: 60px;
+  left: 226px;
+  top: 3569px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .bott2 {
+  position: absolute;
+  width: 540px;
+  height: 172px;
+  left: 226px;
+  top: 3659px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .logo6 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  left: 1155.94px;
+  top: 3997px;
+}
+.container .inner5 {
+  position: absolute;
+  width: 1110px;
+  height: 480px;
+  left: 165px;
+  top: 4184px;
+  background: #F8F8F8;
+  border-radius: 20px;
+}
+.container .tele5 {
+  position: absolute;
+  width: 394px;
+  height: 480px;
+  left: 61px;
+  top: px;
+}
+.container .matn3 {
+  position: absolute;
+  width: 541px;
+  height: 104px;
+  left: 510px;
+  top: 160px;
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 52px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .google {
+  position: absolute;
+  width: 162.27px;
+  height: 47.98px;
+  left: 510px;
+  top: 316px;
+}
+.container .app {
+  position: absolute;
+  width: 162.27px;
+  height: 47.98px;
+  left: 682.73px;
+  top: 316px;
+}
+.container .logo7 {
+  position: absolute;
+  width: 148.28px;
+  height: 148.28px;
+  left: 34px;
+  top: 4537px;
+}
+.container .logo8 {
+  position: absolute;
+  width: 122px;
+  height: 37px;
+  left: 165px;
+  top: 4834px;
+}
+.container .end .sal {
+  position: absolute;
+  height: 22px;
+  width: 181px;
+  left: 165px;
+  top: 4914px;
+  opacity: 50%;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .p2 {
+  position: absolute;
+  width: 113px;
+  height: 24px;
+  left: 535px;
+  top: 4834px;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.container .p3 {
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 535px;
+  top: 4874px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.container .p4 {
+  position: absolute;
+  width: 141px;
+  height: 24px;
+  left: 535px;
+  top: 4914px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.container .tel {
+  position: absolute;
+  width: 82px;
+  height: 18px;
+  left: 945px;
+  top: 4834px;
+  opacity: 50%;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .phone {
+  position: absolute;
+  height: 18px;
+  width: 18.1px;
+  left: 908px;
+  top: 4846px;
+}
+.container .number {
+  position: absolute;
+  width: 162px;
+  height: 20px;
+  left: 945px;
+  top: 4856px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.container .tme {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 4908px;
+  left: 907px;
+}
+.container .insta {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 4908px;
+  left: 951px;
+}
+.container .face {
+  position: absolute;
+  height: 20px;
+  width: 10.5px;
+  left: 1000px;
+  top: 4908px;
+}
+.container .yukla {
+  position: absolute;
+  width: 181px;
+  height: 60px;
+  left: 165px;
+  top: 602px;
+  background: #0F0F54;
+  border-radius: 8px;
+}
+.container .yukla2 {
+  position: absolute;
+  height: 24px;
+  width: 101px;
+  left: 40px;
+  top: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
